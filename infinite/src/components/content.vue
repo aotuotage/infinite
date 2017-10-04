@@ -1,17 +1,23 @@
 <template>
-  <div class="hello">
-    <header>{{ msg }}</header>
+  <div class="content">
+    <navheader></navheader>
+    <header>{{ content }}</header>
+    <navfooter></navfooter>
   </div>
 </template>
 
 <script>
+import navheader from './header'
+import navfooter from './footer'
+
 export default {
-  name: 'hello',
+  name: 'content',
   data () {
     return {
-      msg: '神展开首页'
+      content: '神展开内容'
     }
-  }
+  },
+  components: {navheader, navfooter}
 }
 </script>
 
