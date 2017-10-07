@@ -1,5 +1,11 @@
 # infinite
 
+神展开
+
+树状，无限展开式小说。
+
+用户自建与接龙式小说。
+
 > A Vue.js project
 
 ## Build Setup
